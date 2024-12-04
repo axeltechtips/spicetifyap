@@ -30,7 +30,7 @@ A PowerShell script that monitors Spotify for updates and automatically runs `sp
 
 ---
 
-## Installation
+## Installation (MANUAL, IF YOU DOWNLOAD SETUP.EXE IN RELEASES THIS IS NOT NEEDED)
 
 1. **Clone the Repository**:
    ```bash
