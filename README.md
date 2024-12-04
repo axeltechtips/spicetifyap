@@ -62,14 +62,6 @@ By doing this, `spicetifyap.exe` will run automatically when Windows starts, ens
 
 ---
 
-### License
-
----
-
-This updated section now reflects that `spicetifyap.exe` is already in its folder and focuses on creating a shortcut for the startup task.
-
----
-
 ## Usage
 
 Run the script manually or automatically on system startup. The script will:
