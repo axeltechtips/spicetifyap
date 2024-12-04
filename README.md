@@ -41,11 +41,32 @@ A PowerShell script that monitors Spotify for updates and automatically runs `sp
    - Copy the `SpicetifyUpdater.ps1` file to a location of your choice.
    - Update the script's Spotify installation path if necessary (default: `$env:LOCALAPPDATA\Spotify`).
 
-3. **Create a Startup Task** (Optional):
-   - Save the provided `RunSpicetifyUpdater.bat` file to a location of your choice.
-   - Place the batch file in your Windows startup folder:
-     1. Press `Win + R`, type `shell:startup`, and press Enter.
-     2. Copy the `.bat` file into this folder.
+
+---
+
+### **Create a Startup Task** (Optional & Recommended):
+
+To automatically run the Spicetify updater at startup, follow these steps:
+
+1. **Locate the `spicetifyap.exe` file:**
+   - The `spicetifyap.exe` file should already be in its designated folder.
+
+2. **Create a Shortcut:**
+   - Right-click on `spicetifyap.exe` and select **Create shortcut**.
+
+3. **Add to Startup:**
+   - Press `Win + R`, type `shell:startup`, and press Enter to open the Startup folder.
+   - Copy the created shortcut of `spicetifyap.exe` into this folder.
+
+By doing this, `spicetifyap.exe` will run automatically when Windows starts, ensuring that your Spicetify modifications are always up to date.
+
+---
+
+### License
+
+---
+
+This updated section now reflects that `spicetifyap.exe` is already in its folder and focuses on creating a shortcut for the startup task.
 
 ---
 
