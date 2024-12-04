@@ -44,7 +44,7 @@ A PowerShell script that monitors Spotify for updates and automatically runs `sp
 
 ---
 
-### **Create a Startup Task** (Optional & Recommended):
+### **Create a Startup Task** (Versions older than 1.2 do not have a Startup task):
 
 To automatically run the Spicetify updater at startup, follow these steps:
 
