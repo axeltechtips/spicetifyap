@@ -1,4 +1,3 @@
-```markdown
 # SpicetifyAP
 
 A PowerShell script that monitors Spotify for updates and automatically runs `spicetify backup apply` after an update is detected. This ensures your custom Spicetify themes and extensions are reapplied seamlessly without manual intervention.
